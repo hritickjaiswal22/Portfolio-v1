@@ -79,7 +79,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 10rem 0;
+  margin: 7rem 0;
 }
 
 #skillsWrapper:hover .container__description {
