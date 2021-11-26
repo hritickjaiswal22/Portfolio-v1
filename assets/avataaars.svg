@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 264 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path id="ac" d="M12 160a120 120 0 1 0 240 0h12V0H0v160h12Z"/>
+<path id="v" d="M124 145v18h4c40 0 72 32 72 72v9H0v-9c0-40 32-72 72-72h4v-18c-17-9-30-25-32-45-6-1-10-6-10-12V74c0-6 4-11 10-12v-6a56 56 0 1 1 112 0v6c6 1 10 6 10 12v14c0 6-4 11-10 12-2 20-15 36-32 45Z"/>
+<circle id="w" cx="120" cy="120" r="120"/>
+</defs>
+<g fill="none" fill-rule="evenodd">
+<g transform="translate(12 40)">
+<mask id="ad" fill="#fff">
+<use xlink:href="#w"/>
+</mask>
+<use fill="#E6E6E6" xlink:href="#w"/>
+<g fill="#65C9FF" mask="url(#ad)">
+<path d="M0 0h240v240H0z"/>
+</g>
+</g>
+<mask id="ab" fill="#fff">
+<use xlink:href="#ac"/>
+</mask>
+<g mask="url(#ab)">
+<g transform="translate(32 36)">
+<mask id="u" fill="#fff">
+<use xlink:href="#v"/>
+</mask>
+<use fill="#D0C6AC" xlink:href="#v"/>
+<g fill="#AE5D29" mask="url(#u)">
+<path d="M0 0h264v280H0z"/>
+</g>
+<path d="M156 79v23a56 56 0 1 1-112 0V79v15a56 56 0 1 0 112 0V79Z" fill="#000" fill-opacity=".1" mask="url(#u)"/>
+</g>
+<g transform="translate(0 170)">
+<defs>
+<path id="t" d="M108 13c-18 2-32 8-32 22a72 72 0 0 0-44 66v9h200v-9c0-30-18-55-44-66 0-14-14-20-32-22v19c0 13-11 24-24 24s-24-11-24-24V13Z"/>
+</defs>
+<mask id="p" fill="#fff">
+<use xlink:href="#t"/>
+</mask>
+<use fill="#B7C1DB" xlink:href="#t"/>
+<g fill="#262E33" mask="url(#p)">
+<path d="M0 0h264v110H0z"/>
+</g>
+<path d="M102 62v48h-7V58l7 4Zm67-4v41a3 3 0 1 1-7 0V62l7-4Z" fill="#F4F4F4" mask="url(#p)"/>
+<path d="M91 13c-15 3-25 8-25 19 0 20 33 36 66 36s67-16 67-36c0-11-11-16-26-19 9 3 15 9 15 18 0 20-28 37-56 37S76 51 76 31c0-9 6-15 15-18Z" fill="#000" fill-opacity=".2" mask="url(#p)"/>
+</g>
+<g fill="#000">
+<g transform="translate(78 134)">
+<defs>
+<path id="s" d="M35 15a19 19 0 0 0 38 0l-2-2H37l-2 2Z"/>
+</defs>
+<mask id="r" fill="#fff">
+<use xlink:href="#s"/>
+</mask>
+<use fill-opacity=".7" xlink:href="#s"/>
+<rect x="39" y="2" width="31" height="16" rx="5" fill="#FFF" mask="url(#r)"/>
+<g fill="#FF4F6D" mask="url(#r)">
+<g transform="translate(38 24)">
+<circle cx="11" cy="11" r="11"/>
+<circle cx="21" cy="11" r="11"/>
+</g>
+</g>
+</g>
+<path d="m120 130c0 4 5 8 12 8s12-4 12-8" fill-opacity=".2"/>
+<g transform="translate(76 90)" fill-opacity=".6">
+<circle cx="30" cy="22" r="6"/>
+<circle cx="82" cy="22" r="6"/>
+</g>
+<g fill-opacity=".6">
+<path d="m136 98 6 2 18-3c6-1 12-2 17 1l2 1h1c1-3-6-9-8-9-7-3-15 0-22 2l-11 2-4 1c-1 0-3 3-1 3h2zm-44-8c7-3 15 0 22 2l11 2 4 1 1 2-8 3-18-3c-6-1-12-2-17 1l-2 1h-1c-1-3 6-9 8-9zm39 4c1 0 3 4 0 4-2 1-1-4 0-4z"/>
+</g>
+</g>
+<defs>
+<path id="aa" d="M0 0h264v280H0z"/>
+<path id="q" d="m180 40-9-8-2-1-2-2v-1c0-2 3-6 1-7l-4 1-6 2c1-2 3-6 0-5l-8 4c1-1 4-6 1-6l-5 2-9 3c-11 2-25 1-35 6-8 4-16 10-20 18-5 7-6 16-7 24l-1 19c0 2 1 12 4 9l1-9 3-12c2-6 5-14 10-18l10-10 3-1h39l10-1h7l4 5 8 7c6 4 9 10 11 17l3 21c0 1 1 3 3 1v-3l1-13c0-13-1-32-11-42z"/>
+</defs>
+<mask id="z" fill="#fff">
+<use xlink:href="#aa"/>
+</mask>
+<g mask="url(#z)">
+<g transform="translate(-1)">
+<mask id="y" fill="#fff">
+<use xlink:href="#q"/>
+</mask>
+<use fill="#1F3140" xlink:href="#q"/>
+<g fill="#2C1B18" mask="url(#y)">
+<path d="M0 0h264v280H0z"/>
+</g>
+<g transform="translate(62 85)">
+<defs>
+<filter id="x" x="-.8%" y="-2.4%" width="101.5%" height="109.8%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<g transform="translate(6 7)" fill="#252C2F" fill-rule="nonzero" filter="url(#x)">
+<path d="M34 41h-3C17 41 9 33 9 21 9 10 11 0 33 0h2c22 0 24 10 24 21 0 12-10 20-25 20ZM32 6c-19 0-19 7-19 16 0 7 3 15 18 15h3c12 0 21-6 21-15S55 6 36 6h-4ZM96 41h-3c-14 0-22-8-22-20 0-11 2-21 24-21h2c22 0 24 10 24 21 0 12-10 20-25 20ZM94 6c-19 0-19 7-19 16 0 7 3 15 18 15h3c12 0 21-6 21-15s0-16-19-16h-4Z"/>
+<path d="M3 6c1-1 8-6 30-6 17 0 21 2 27 5l5 1 5-1c6-3 13-5 28-5 21 0 28 5 29 6 2 0 3 1 3 3v3c0 1-1 2-3 2 0 0-7 0-7 3s-2-4-2-5V9c-3-2-10-4-20-4-12 0-18 2-23 4v2l-2 5-3-1H60l-2 2-3-6V9c-4-2-8-4-22-4-11 0-18 2-21 4v3c0 1-3 8-3 5s-6-3-6-3c-2 0-3-1-3-2V9c0-2 1-3 3-3Z"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

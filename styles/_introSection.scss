@@ -1,0 +1,47 @@
+.introContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__description {
+    font-size: 2.2rem;
+    font-weight: 300;
+    max-width: 90rem;
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+
+  &__avatarBox {
+    max-width: 26.5rem;
+  }
+
+  &__avatar {
+    width: 100%;
+  }
+}
+
+.animatedHeading {
+  position: relative;
+  font-weight: 900;
+  font-size: 5rem;
+  width: 95%;
+}
+
+.animatedHeading .animatedHeading__textWrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.animatedHeading .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+@import "./mediaQueries";
