@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 7rem 0;
+  margin-top: 7rem;
 }
 
 #skillsWrapper:hover {
@@ -13,11 +13,11 @@
 
 .container {
   max-width: 120rem;
-  width: 98%;
+  width: 100%;
   padding: 1rem;
   position: relative;
-  background-color: #3bab87;
-  min-height: 45rem;
+  background-color: #2cbd94;
+  min-height: 38rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,6 +46,13 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 2rem;
+
+  &--extra {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   &__skillBox {
     box-shadow: 0px 4px 8px #1d1d35;
