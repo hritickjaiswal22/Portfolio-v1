@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 7rem;
+  margin: 7rem 0;
 }
 
 #skillsWrapper:hover {
@@ -16,9 +16,9 @@
   width: 100%;
   padding: 1rem;
   position: relative;
+  display: flex;
   background-color: #2cbd94;
   min-height: 38rem;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);

@@ -1,3 +1,33 @@
+@media only screen and (max-width: 1100px) {
+  .projectBox__techList {
+    font-size: 2rem;
+  }
+
+  .projectBox__tech {
+    font-size: 2rem;
+  }
+
+  .projectBox__descriptionListItem {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .projectBox {
+    flex-direction: column-reverse;
+  }
+
+  .projectBox__detailBox {
+    padding: 0;
+    width: 100%;
+  }
+
+  .projectBox__imageBox {
+    width: 100%;
+    max-width: 55rem;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .animatedHeading {
     font-size: 3.2rem;
@@ -14,10 +44,18 @@
   #skillsWrapper {
     min-height: 70rem;
   }
-}
 
-@media only screen and (max-width: 350px) {
+  .container__heading,
+  .projectsContainer__heading {
+    font-size: 7rem;
+    top: -4.5rem;
+  }
+
   #skillsWrapper {
-    padding-top: 13rem;
+    padding-top: 5rem;
+  }
+
+  .projectsContainer {
+    padding-top: 10rem;
   }
 }

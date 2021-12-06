@@ -1,0 +1,73 @@
+.projectsSection {
+  display: block;
+  margin: 10rem 0;
+}
+
+.projectsContainer {
+  max-width: 120rem;
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+  display: block;
+  background-color: #8685ef;
+  margin: 0 auto;
+  padding-top: 5rem;
+
+  &__heading {
+    @extend .container__heading;
+  }
+}
+
+.projectBox {
+  width: 95%;
+  margin: 4rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  &__detailBox {
+    padding: 1rem;
+  }
+
+  &__title {
+    font-size: 4rem;
+    margin: 1rem 0;
+  }
+
+  &__techList {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+
+  &__tech {
+    font-size: 2.5rem;
+  }
+
+  &__descriptionList {
+    list-style: none;
+  }
+
+  &__descriptionListItem::before {
+    content: "-";
+  }
+
+  &__descriptionListItem {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+
+  &__imageBox {
+    width: 41rem;
+    flex: none;
+  }
+
+  &__image {
+    width: 100%;
+  }
+}
+
+@import "./mediaQueries";
