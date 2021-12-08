@@ -291,6 +291,16 @@
   padding-top: 5rem;
 }
 
+.projectsContainer:hover .projectBox:first-of-type {
+  -webkit-transform: translate3D(0, 6px, 0);
+          transform: translate3D(0, 6px, 0);
+}
+
+.projectsContainer:hover .projectBox:last-of-type {
+  -webkit-transform: translate3D(0, -6px, 0);
+          transform: translate3D(0, -6px, 0);
+}
+
 .projectBox {
   width: 95%;
   margin: 4rem auto;
@@ -341,6 +351,20 @@
 .projectBox__descriptionListItem {
   font-size: 2rem;
   margin: 0.5rem 0;
+}
+
+.projectBox__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projectBox__navImage {
+  width: 4rem;
+  height: 4rem;
 }
 
 .projectBox__imageBox {

@@ -18,6 +18,16 @@
   }
 }
 
+.projectsContainer:hover {
+  .projectBox:first-of-type {
+    transform: translate3D(0, 6px, 0);
+  }
+
+  .projectBox:last-of-type {
+    transform: translate3D(0, -6px, 0);
+  }
+}
+
 .projectBox {
   width: 95%;
   margin: 4rem auto;
@@ -58,6 +68,16 @@
   &__descriptionListItem {
     font-size: 2rem;
     margin: 0.5rem 0;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__navImage {
+    width: 4rem;
+    height: 4rem;
   }
 
   &__imageBox {
