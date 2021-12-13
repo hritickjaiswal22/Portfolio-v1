@@ -1,0 +1,14 @@
+@import "./projectsSection";
+
+.aboutContainer {
+  @extend .projectsContainer;
+  background-color: #c1eaf0;
+
+  &__heading {
+    @extend .projectsContainer__heading;
+  }
+
+  &__description {
+    font-size: 2.5rem;
+  }
+}
