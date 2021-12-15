@@ -1,16 +1,14 @@
+@import "./container";
+
 .projectsSection {
   display: block;
   margin: 10rem 0;
 }
 
 .projectsContainer {
-  max-width: 120rem;
-  width: 100%;
-  padding: 1rem;
-  position: relative;
+  @extend .container;
   display: block;
   background-color: #8685ef;
-  margin: 0 auto;
   padding-top: 5rem;
 
   &__heading {

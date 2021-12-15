@@ -51,8 +51,8 @@
 
   .container__heading,
   .projectsContainer__heading {
-    font-size: 7rem;
-    top: -4.5rem;
+    font-size: 5rem;
+    top: -3.5rem;
   }
 
   #skillsWrapper {
@@ -60,11 +60,12 @@
   }
 
   .projectsContainer {
-    padding-top: 10rem;
+    padding-top: 5rem;
   }
 
   .aboutContainer {
     flex-direction: column;
+    padding-top: 5rem;
 
     &__descriptionBox {
       width: 100%;

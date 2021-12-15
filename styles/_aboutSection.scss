@@ -1,12 +1,13 @@
-@import "./projectsSection";
+@import "./container";
 
 .aboutContainer {
-  @extend .projectsContainer;
+  @extend .container;
   background-color: #c1eaf0;
-  padding-top: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
+  padding-top: 3rem;
 
   &__imageBox {
     max-width: 40rem;
