@@ -99,9 +99,10 @@
   #skillsWrapper {
     min-height: 70rem;
   }
-  .container__heading, .projectsContainer__heading, .aboutContainer__heading,
+  .container__heading, .projectsContainer__heading, .aboutContainer__heading, .sayHelloContainer__heading,
   .projectsContainer__heading,
-  .aboutContainer__heading {
+  .aboutContainer__heading,
+  .sayHelloContainer__heading {
     font-size: 5rem;
     top: -3.5rem;
   }
@@ -162,7 +163,7 @@
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.container__heading, .projectsContainer__heading, .aboutContainer__heading {
+.container__heading, .projectsContainer__heading, .aboutContainer__heading, .sayHelloContainer__heading {
   font-size: 8rem;
   margin: 0;
   position: absolute;
@@ -277,9 +278,10 @@
   #skillsWrapper {
     min-height: 70rem;
   }
-  .container__heading, .projectsContainer__heading, .aboutContainer__heading,
+  .container__heading, .projectsContainer__heading, .aboutContainer__heading, .sayHelloContainer__heading,
   .projectsContainer__heading,
-  .aboutContainer__heading {
+  .aboutContainer__heading,
+  .sayHelloContainer__heading {
     font-size: 5rem;
     top: -3.5rem;
   }
@@ -451,9 +453,10 @@
   #skillsWrapper {
     min-height: 70rem;
   }
-  .container__heading, .projectsContainer__heading, .aboutContainer__heading,
+  .container__heading, .projectsContainer__heading, .aboutContainer__heading, .sayHelloContainer__heading,
   .projectsContainer__heading,
-  .aboutContainer__heading {
+  .aboutContainer__heading,
+  .sayHelloContainer__heading {
     font-size: 5rem;
     top: -3.5rem;
   }
@@ -569,9 +572,10 @@
   #skillsWrapper {
     min-height: 70rem;
   }
-  .container__heading, .projectsContainer__heading, .aboutContainer__heading,
+  .container__heading, .projectsContainer__heading, .aboutContainer__heading, .sayHelloContainer__heading,
   .projectsContainer__heading,
-  .aboutContainer__heading {
+  .aboutContainer__heading,
+  .sayHelloContainer__heading {
     font-size: 5rem;
     top: -3.5rem;
   }
@@ -602,6 +606,11 @@
 .sayHelloContainer {
   background-color: #324b4c;
   color: #fff;
+  display: block;
+}
+
+.sayHelloContainer__heading {
+  color: black;
 }
 
 * {

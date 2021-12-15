@@ -4,4 +4,10 @@
   @extend .container;
   background-color: #324b4c;
   color: #fff;
+  display: block;
+
+  &__heading {
+    @extend .projectsContainer__heading;
+    color: black;
+  }
 }
