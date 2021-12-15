@@ -1,5 +1,9 @@
 @import "./container";
 
+.aboutSection {
+  margin: 7rem 0;
+}
+
 .aboutContainer {
   @extend .container;
   background-color: #c1eaf0;

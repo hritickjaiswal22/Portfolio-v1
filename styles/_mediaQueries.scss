@@ -55,17 +55,14 @@
     top: -3.5rem;
   }
 
-  #skillsWrapper {
-    padding-top: 5rem;
-  }
-
-  .projectsContainer {
-    padding-top: 5rem;
+  #skillsWrapper,
+  .projectsContainer,
+  .aboutContainer {
+    padding-top: 5rem !important;
   }
 
   .aboutContainer {
     flex-direction: column;
-    padding-top: 5rem;
 
     &__descriptionBox {
       width: 100%;
