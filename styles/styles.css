@@ -599,10 +599,15 @@
 
 .aboutContainer {
   background-color: #c1eaf0;
+  padding-top: 3rem;
 }
 
 .aboutContainer__description {
-  font-size: 2.5rem;
+  font-size: 2rem;
+}
+
+.aboutContainer__description:nth-of-type(1) {
+  margin-bottom: 1rem;
 }
 
 * {
