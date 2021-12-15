@@ -117,6 +117,9 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .aboutContainer__descriptionBox {
+    width: 100%;
+  }
 }
 
 .skillsSection {
@@ -293,6 +296,9 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .aboutContainer__descriptionBox {
+    width: 100%;
+  }
 }
 
 .projectsSection {
@@ -462,6 +468,9 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .aboutContainer__descriptionBox {
+    width: 100%;
+  }
 }
 
 .projectsSection {
@@ -630,6 +639,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .aboutContainer__descriptionBox {
+    width: 100%;
   }
 }
 
@@ -653,6 +665,10 @@
 
 .aboutContainer__image {
   width: 100%;
+}
+
+.aboutContainer__descriptionBox {
+  width: 70%;
 }
 
 .aboutContainer__description {
@@ -726,6 +742,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .aboutContainer__descriptionBox {
+    width: 100%;
   }
 }
 

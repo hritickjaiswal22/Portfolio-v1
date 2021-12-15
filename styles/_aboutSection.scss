@@ -20,6 +20,10 @@
     @extend .projectsContainer__heading;
   }
 
+  &__descriptionBox {
+    width: 70%;
+  }
+
   &__description {
     font-size: 2rem;
   }

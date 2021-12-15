@@ -65,5 +65,9 @@
 
   .aboutContainer {
     flex-direction: column;
+
+    &__descriptionBox {
+      width: 100%;
+    }
   }
 }
