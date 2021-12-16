@@ -1,8 +1,12 @@
 @import "./container";
 
+.sayHelloSection {
+  margin: 3rem 0;
+}
+
 .sayHelloContainer {
   @extend .container;
-  background-color: #324b4c;
+  background-color: #074e50;
   color: #fff;
   display: block;
 
@@ -10,4 +14,54 @@
     @extend .projectsContainer__heading;
     color: black;
   }
+
+  &__description {
+    font-size: 1.5rem;
+    margin: 3rem 0;
+  }
+
+  &__link {
+    color: #fff;
+  }
+
+  &__inputWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__input {
+    display: block;
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 1rem;
+    border-width: 0 0 2px;
+    border-color: #fff;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    width: 49%;
+  }
+
+  .fullWidthInput {
+    width: 100%;
+  }
+
+  &__formBtn {
+    background-color: #ff8847;
+    padding: 1rem 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2rem;
+  }
 }
+
+::placeholder {
+  color: #fff;
+}
+
+@import "./mediaQueries";

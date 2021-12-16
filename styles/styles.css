@@ -120,6 +120,15 @@
   .aboutContainer__descriptionBox {
     width: 100%;
   }
+  .sayHelloContainer__inputWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sayHelloContainer__input {
+    width: 100%;
+  }
 }
 
 .skillsSection {
@@ -299,6 +308,15 @@
   .aboutContainer__descriptionBox {
     width: 100%;
   }
+  .sayHelloContainer__inputWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sayHelloContainer__input {
+    width: 100%;
+  }
 }
 
 .container, .projectsContainer, .aboutContainer, .sayHelloContainer {
@@ -474,6 +492,15 @@
   .aboutContainer__descriptionBox {
     width: 100%;
   }
+  .sayHelloContainer__inputWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sayHelloContainer__input {
+    width: 100%;
+  }
 }
 
 .container, .projectsContainer, .aboutContainer, .sayHelloContainer {
@@ -593,6 +620,15 @@
   .aboutContainer__descriptionBox {
     width: 100%;
   }
+  .sayHelloContainer__inputWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sayHelloContainer__input {
+    width: 100%;
+  }
 }
 
 .container, .projectsContainer, .aboutContainer, .sayHelloContainer {
@@ -603,14 +639,160 @@
   margin: 0 auto;
 }
 
+.sayHelloSection {
+  margin: 3rem 0;
+}
+
 .sayHelloContainer {
-  background-color: #324b4c;
+  background-color: #074e50;
   color: #fff;
   display: block;
 }
 
 .sayHelloContainer__heading {
   color: black;
+}
+
+.sayHelloContainer__description {
+  font-size: 1.5rem;
+  margin: 3rem 0;
+}
+
+.sayHelloContainer__link {
+  color: #fff;
+}
+
+.sayHelloContainer__inputWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sayHelloContainer__input {
+  display: block;
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 1rem;
+  border-width: 0 0 2px;
+  border-color: #fff;
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+  width: 49%;
+}
+
+.sayHelloContainer .fullWidthInput {
+  width: 100%;
+}
+
+.sayHelloContainer__formBtn {
+  background-color: #ff8847;
+  padding: 1rem 5rem;
+  font-size: 2rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+@media only screen and (max-width: 1100px) {
+  .projectBox__techList {
+    font-size: 2rem;
+  }
+  .projectBox__tech {
+    font-size: 2rem;
+  }
+  .projectBox__descriptionListItem {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .projectBox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .projectBox__detailBox {
+    padding: 0;
+    width: 100%;
+  }
+  .projectBox__imageBox {
+    width: 100%;
+    max-width: 55rem;
+  }
+  .aboutContainer__description {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .animatedHeading {
+    font-size: 3.2rem;
+  }
+  .introContainer__description {
+    font-size: 1.5rem;
+  }
+  .skillsContainer {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  #skillsWrapper {
+    min-height: 70rem;
+  }
+  .container__heading, .projectsContainer__heading, .aboutContainer__heading, .sayHelloContainer__heading,
+  .projectsContainer__heading,
+  .aboutContainer__heading,
+  .sayHelloContainer__heading {
+    font-size: 5rem;
+    top: -3.5rem;
+  }
+  #skillsWrapper,
+  .projectsContainer,
+  .aboutContainer {
+    padding-top: 5rem !important;
+  }
+  .aboutContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aboutContainer__descriptionBox {
+    width: 100%;
+  }
+  .sayHelloContainer__inputWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sayHelloContainer__input {
+    width: 100%;
+  }
 }
 
 * {

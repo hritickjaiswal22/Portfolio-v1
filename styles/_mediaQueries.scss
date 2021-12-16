@@ -68,4 +68,12 @@
       width: 100%;
     }
   }
+
+  .sayHelloContainer__inputWrapper {
+    flex-direction: column;
+  }
+
+  .sayHelloContainer__input {
+    width: 100%;
+  }
 }
