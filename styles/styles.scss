@@ -1,3 +1,4 @@
+@import "./navbar";
 @import "./introSection";
 @import "./skillsSection";
 @import "./projectsSection";
@@ -13,6 +14,7 @@
 html {
   font-size: 10px;
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {

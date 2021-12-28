@@ -23,3 +23,15 @@ anime
     easing: "easeOutExpo",
     delay: 1000,
   });
+
+const hamburgerMenu = document.querySelector(".hamburgerMenu");
+const navList = document.querySelector(".navList");
+
+const toggleHandler = (e) => {
+  hamburgerMenu.classList.toggle("change");
+  if (navList.style.display === "" || navList.style.display === "none")
+    navList.style.display = "flex";
+  else navList.style.display = "none";
+};
+
+hamburgerMenu.addEventListener("click", toggleHandler);

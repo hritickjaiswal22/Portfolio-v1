@@ -13,6 +13,24 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .hamburgerMenu {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .navbar {
+    padding: 3rem;
+  }
+
+  .navList {
+    flex-direction: column;
+    display: none;
+  }
+
+  .navListItem {
+    margin: 1rem auto;
+  }
+
   .projectBox {
     flex-direction: column-reverse;
   }
